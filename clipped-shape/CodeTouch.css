@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.border{
+    padding:2px;
+    margin: 50px auto;
+    background-color: #eee4;
+    width: fit-content;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.clipped{
+    height: auto;
+    width: fit-content;
+    text-align: center;
+    background-color: #080808;
+    padding: 20px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.clipped .info{
+    color:#eeea;
+    font-size: 25px;
+}
